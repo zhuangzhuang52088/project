@@ -1,0 +1,147 @@
+
+
+#banner{
+    height: 500px;
+    background: url(../img1/denglubg1.jpg) no-repeat center center;
+    background-size: 1440px 500px;
+}
+.banner-c{
+    height: 500px;
+    position: relative;
+
+}
+#foot{
+    margin-top: 58px;
+}
+.footer{
+    width: 100%;
+    height: 35px;
+   
+}
+
+.footer p{
+    line-height: 35px;
+    color: #1e1e1e;
+    text-align: center;
+}
+.login{
+    width: 384px;
+    height: 418px;
+    background: #fff;
+    position: absolute;
+    top: 10px;
+    right: 114px;
+}
+
+.top{
+    width: 384px;
+    height: 66px;
+    border-bottom: 1px solid #f7f7f7;
+    margin-bottom: 56px;
+}
+.top a{
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 66px;
+}
+.top a:nth-child(1){
+    float: left;
+    margin-left: 48px;
+}
+.top a:nth-child(2){
+    float: right;
+    margin-right: 48px;
+}
+.top a:hover{
+    color:red;
+}
+.middle-top{
+    width: 278px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #ddd;
+    margin-left: 48px;
+    margin-bottom: 24px;
+    overflow: hidden;
+}
+.icon-geren1{
+    padding-left: 10px;
+    padding-right: 18px;
+}
+.icon-baobao{
+    padding-left: 10px;
+    padding-right: 18px;
+}
+.middle-bottom{
+    width: 278px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #ddd;
+    margin-left: 48px;
+    overflow: hidden;
+}
+
+input{
+    border: none;
+    width: 228px;
+    height: 38px;
+}
+.bottom{
+    height: 12px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.bottom a:nth-child(1){
+    float: left;
+    margin-left: 48px;
+    color: #999;
+    text-decoration: none;
+
+}
+.bottom a:nth-child(2){
+    float: right;
+    margin-right: 50px;
+    color: #a42827;
+    text-decoration: none;
+
+
+}
+.btn1{
+    width: 278px;
+    height: 40px;
+    background: #c62e2d;
+    color: #fff;
+    border: none;
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+.btn1:hover{
+    background: #a42827;
+}
+.span1{
+    display: block;
+    text-align: center;
+    color: #ccc;
+}
+.qr{
+    width: 166px;
+    height: 58px;
+    line-height: 58px;
+    margin-left: 110px;
+}
+.qr a{
+    text-decoration: none;
+    margin: 10px 10px;
+}
+.qr .icon-logo-wechat{
+    font-size: 32px;
+    color: #45c45d;
+}
+.qr .icon-qq{
+    font-size: 32px;
+    color: #67b5ff;
+}
+.qr .icon-weibo{
+    font-size: 32px;
+    color: #ff6631;
+}

@@ -1,0 +1,76 @@
+#main{
+    width: 1200px;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    border-top: none;
+}
+.center{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.center form{
+    padding-top: 35px;
+    text-align: center;
+}
+.center form label{
+    display: inline-block;
+    width: 112px;
+    height: 18px;
+}
+.center form input{
+    width: 268px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    margin-bottom: 24px;
+}
+.center form label span{
+    color: #f5226a;
+}
+.center form .inp1{
+    width: 170px;
+    height: 40px;
+}
+.center form img{
+    width: 90px;
+    height: 40px;
+    border: 1px solid #ddd;
+}
+.center form .inp2{
+    width: 186px;
+    height: 40px;
+}
+
+.center form .sub{
+    width: 280px;
+    height: 40px;
+    color: #fff;
+    background: #c62e2d;
+}
+.center form .sbt{
+    background: #c62e2d;
+    color: #fff;
+    border: none;
+    margin-left: 110px;
+    width: 280px;
+    height: 40px;
+}
+.center form .sbt:hover{
+    background: #a42827;
+}
+#foot{
+    margin-top: 58px;
+}
+.footer{
+    width: 100%;
+    height: 35px;
+   
+}
+
+.footer p{
+    line-height: 35px;
+    color: #1e1e1e;
+    text-align: center;
+}

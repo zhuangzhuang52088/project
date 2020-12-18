@@ -1,0 +1,312 @@
+/*  登录注册顶部 */
+.conTop{
+    position: relative;
+    }
+    .help-xl1 p{
+        display: none;
+       position: absolute;
+       top: 32px;
+       right: 80px;
+        border: 1px solid #DDD;
+        border-top:none;
+        background: #fff;
+    }
+    .help-xl1:hover{
+        height: 80px;
+    }
+    .help-xl1:hover p{
+        display: block;
+    }
+    .help-xl1 p a{
+        float: left;
+        margin: 0 12px;
+    }
+
+     /*下拉列表  */
+.nav .cla{
+    position: relative;
+}
+
+.nav .xl-li-one{
+    display: none;
+    width: 184px;
+    min-height: 380px;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    background:rgba(0, 0, 0, 0.4);
+    z-index: 9;
+}
+
+.nav .xl-li-one dl{
+    height: 50px;
+}
+.nav .xl-li-one dt{
+    color: #fff;
+    margin-left:20px;
+    font-size: 12px;
+padding: 8px 0 10px 0;
+}
+.nav .xl-li-one dd{
+    float: left;
+    margin-left: 20px;
+
+}
+.nav .xl-li-one dd a{
+    color: #fff;
+}
+.nav .xl-li-two{
+    position: absolute;
+    top: 0px;
+    left: 184px;
+    width: 640px;
+    padding: 0 30px;
+    min-height: 380px;
+    background: #fff;
+    display: none;
+}
+
+.nav .xl-li-one dl:hover .xl-li-two{
+    display: block;
+}
+
+.nav .xl-li-two ol{
+    width: 640px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #ddd;
+}
+.nav .xl-li-two ol span{
+    width: 50px;
+    float: left;
+    color: #666;
+    font-weight: bold;
+    margin-right: 44px;
+    margin-left: 15px;
+}
+.nav .xl-li-two ol li{
+    float: left;
+    text-align: center;
+}
+
+.nav .xl-li-two ol a:hover{
+    color: #c62f2d;
+}
+.nav .xl-li-two ol li a{
+    color: #999;
+    font-size: 12px;
+}
+
+.nav .xl-li-two ol li b{
+    float: left;
+    margin: 0 10px;
+    color: #ddd;
+}
+.nav .xl-li-two .xl-li-two-red li a{
+    color: #c62f2d;
+}
+
+/* 主题内容 */
+
+    .conentT{
+        background: #f4f5f4;
+        height: 50px;
+        padding-left: 24px;
+        line-height: 50px;
+        margin-top: 35px;
+        margin-bottom: 25px;
+    }
+    .fdj-l{
+        padding: 24px;
+        position: relative;
+        height: 550px;
+        overflow: hidden;
+    }
+    .box{
+        width: 350px;
+        height: 350px;
+        float: left;
+        position: relative;
+    }
+    .box img{
+        width: 350px;
+        height: 350px;
+        display: block;
+    }
+    .mask{
+        width: 175px;
+        height: 175px;
+        background: rgba(0,0,0,0.4);
+        position: absolute;
+        left: 0px;
+        top:0px;
+        display:none;
+        cursor: move;
+
+    }
+    .rightBox{
+        width: 375px;
+        height: 375px;
+        position: absolute;
+        left:460px;
+        top:25px;
+        overflow: hidden;
+        border: 1px solid #ddd;
+        display: none;
+    }
+    .rightBox img{
+        display: block;
+        width: 700px;
+        height: 700px;
+        position:absolute;
+        top: 0;
+        left: 0;
+    }
+    .imgs{
+        position: absolute;
+        top:420px;
+        left:24px;
+    }
+    .imgs img{
+        display: block;
+        float: left;
+        width: 70px;
+        height: 70px;
+    }
+    .border1{
+        border:2px solid red;
+    }
+    .fdj-r{
+        width: 604px;
+        height: 300px;
+       float: left;
+       margin-left: 112px;
+    }
+    .fdj-r .fdj-r-top{
+        margin-bottom: 24px;
+    }
+    .fdj-r .fdj-r-top p:nth-child(1){
+        font-size: 16px;
+        color: #585b58;
+        margin-bottom: 15px;
+    }
+    .fdj-r .fdj-r-top p:nth-child(2){
+        color: #585b58;
+        margin-bottom: 12px;
+    }
+    .fdj-r .fdj-r-top p:nth-child(3) a{
+        float: left;
+        color: #1890ff;
+    }
+    .fdj-r .fdj-r-top p:nth-child(3) span{
+        float: left;
+        color: #666666;
+        margin: 0 10px 0 5px;
+    }
+    .fdj-r .fdj-r-mid{
+        width: 574px;
+        height: 77px;
+        background: #f7f5f1;
+        padding-left:30px ;
+        padding-top: 25px;
+    }
+    .fdj-r .fdj-r-mid p:nth-child(1){
+        margin-bottom: 14px;
+    }
+    .fdj-r .fdj-r-mid p:nth-child(1) span{
+        float: left;
+    }
+    .fdj-r .fdj-r-mid p:nth-child(1) span:nth-child(1){
+        color: #666666;
+        margin-right: 32px;
+    }
+    .fdj-r .fdj-r-mid p:nth-child(1) span:nth-child(2){
+        color: #c62e2d;
+        font-size: 14px;
+        font-weight: bold;
+        margin-right: 12px;
+    }
+    .fdj-r .fdj-r-mid p:nth-child(1) span:nth-child(3){
+        color: #5b5b5b;
+        text-decoration: line-through;
+    }
+    .fdj-r .fdj-r-mid p:nth-child(2) span{
+        float: left;
+        color: #666666;
+        margin-right: 26px;
+    }
+    .fdj-r .fdj-r-mid p:nth-child(2) img{
+        float: left;
+        margin-right: 4px;
+    }
+    .fdj-r .fdj-r-mid p:nth-child(2) a{
+        float: left;
+        margin-left: 210px;
+    }
+
+    .fdj-r-but .fdj-r-but-num{
+        float: left;
+        line-height: 24px;
+        color: #999999;
+        margin: 18px 26px 26px 44px;
+    }
+    .fdj-r-but .num{
+        float: left;
+        width: 84.px;
+        height: 22px;
+        margin-top: 18px;
+        border: 1px solid #dddddd;
+    }
+    .fdj-r-but .num:hover{
+        border-color: #c62e2d;
+    }
+    .fdj-r-but .num button{
+        width: 22px;
+        height: 22px;
+        border: none;
+    }
+    .fdj-r-but .num .btn1{
+        border-right: 1px solid #dddddd;
+        background: #f5f5f5;
+    }
+    .fdj-r-but .num .btn2{
+        border-left: 1px solid #dddddd;
+        background: #fff;
+        margin-left: -3px;
+
+    }
+    .fdj-r-but .num input{
+        margin-left: -4px;
+        width: 40px;
+        height: 22px;
+        border: none;
+        text-align: center;
+    }
+   .buy{
+        height: 40px;
+        text-align: center;
+    }
+    .buy span:nth-child(1){
+        float: left;
+        width: 158px;
+        height: 40px;
+        border: 1px solid #c62e2d;
+        margin-left: 16px;
+        line-height: 40px;
+        font-size: 16px;
+        color: #c62e2d;
+        cursor: pointer;
+    }
+   .buy span:nth-child(2){
+        float: left;
+        width: 158px;
+        height: 42px;
+        background: #c62e2d;
+        margin-left: 18px;
+        line-height: 40px;
+      
+    }
+    .buy span:nth-child(2) a{
+        color: #fff;
+        font-size: 16px;
+    }
